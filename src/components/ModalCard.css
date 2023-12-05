@@ -1,0 +1,35 @@
+.algo {
+  background-color: aqua;
+}
+
+.data-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.input,
+.input-error {
+  border-radius: 4px;
+  padding: 0.3rem;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+.buttons-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+
+.action-icon {
+  display: flex;
+  align-self: center;
+
+  > img {
+    height: 2rem;
+    pointer-events: none;
+  }
+}

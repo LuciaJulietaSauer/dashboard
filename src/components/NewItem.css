@@ -1,0 +1,26 @@
+.input,
+.input-error {
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+.add-button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 2px solid #0e998e;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.add-button:hover {
+  background-color: #0e998e;
+  color: white;
+}

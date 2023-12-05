@@ -1,0 +1,8 @@
+.order-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  border-radius: 4px;
+  padding-right: 0.5rem;
+}
